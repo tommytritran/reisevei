@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Reisevei",
+  "version": "1.0.0",
+  "description": "Finn.no reisevei",
+  "content_scripts": [
+    {
+      "matches": ["https://www.finn.no/realestate/homes/*"],
+      "js": ["scripts/content.js"]
+    }
+  ]
+}
