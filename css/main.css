@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  padding: 16px;
+  row-gap: 8px;
+}
+
+.container > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+#lagreBtn {
+  width: 50px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="css/main.css" />
+  <body>
+    <div class="container">
+      <h1>Reisevei</h1>
+      <form id="form">
+        <div>
+          <label htmlFor="from">Fra</label>
+          <input type="text" id="from" />
+        </div>
+        <div>
+          <label htmlFor="travelMode">Reisetype</label>
+          <select name="travelMode" id="travelMode">
+            <option value="transit">Kollektiv</option>
+            <option value="walking">Gå</option>
+            <option value="bicycling">Sykkel</option>
+            <option value="driving">Bil</option>
+          </select>
+        </div>
+        <button id="lagreBtn">Lagre</button>
+      </form>
+    </div>
+    <script src="scripts/popup.js"></script>
+  </body>
+</html>
